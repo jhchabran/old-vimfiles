@@ -118,7 +118,7 @@ set directory=~/.vim/backup
 
 " Default color scheme
 set background=dark
-color ir_black
+color desert
 
 
 

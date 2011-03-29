@@ -23,3 +23,5 @@ endif
 " Start without the toolbar
 set guioptions=aAce
 set guifont=Inconsolata:h16
+
+color ir_black
