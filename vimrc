@@ -3,7 +3,7 @@ set number
 set ruler
 syntax on
 set encoding=utf-8
-
+set hidden
 let mapleader = "," 
 " Manage all my plugins through pathogen
 call pathogen#runtime_append_all_bundles() 
@@ -118,7 +118,7 @@ set directory=~/.vim/backup
 
 " Default color scheme
 set background=dark
-color solarized
+color ir_black
 
 
 
