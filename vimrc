@@ -1,4 +1,8 @@
 set nocompatible
+
+call pathogen#runtime_append_all_bundles() 
+call pathogen#helptags()
+
 set number
 set ruler
 syntax on
@@ -6,8 +10,6 @@ set encoding=utf-8
 set hidden
 let mapleader = "," 
 " Manage all my plugins through pathogen
-call pathogen#runtime_append_all_bundles() 
-call pathogen#helptags()
 
 " Store lots of :cmdline history
 set history=1000
