@@ -21,7 +21,7 @@ if has("gui_macvim")
 endif
 
 " Start without the toolbar
-set guioptions=aAce
+set guioptions=aAc
 set guifont=Inconsolata:h16
 
 color ir_black
