@@ -70,3 +70,6 @@
 [submodule "bundle/moria"]
 	path = bundle/moria
 	url = https://github.com/vim-scripts/moria.git
+[submodule "bundle/zoom-win"]
+	path = bundle/zoom-win
+	url = https://github.com/vim-scripts/ZoomWin
