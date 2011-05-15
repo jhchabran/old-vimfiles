@@ -73,3 +73,6 @@
 [submodule "bundle/zoom-win"]
 	path = bundle/zoom-win
 	url = https://github.com/vim-scripts/ZoomWin
+[submodule "bundle/vim-color-pyte"]
+	path = bundle/vim-color-pyte
+	url = https://github.com/therubymug/vim-pyte.git
