@@ -1,3 +1,7 @@
+" Start without the toolbar
+set guioptions=aAc
+color ir_black
+
 if has("gui_macvim")
   " Fullscreen takes up entire screen
   set fuoptions=maxhorz,maxvert
@@ -18,10 +22,7 @@ if has("gui_macvim")
   " Adjust viewports to the same size
   map <Leader>= <C-w>=
   imap <Leader>= <Esc> <C-w>=
-endif
-
-" Start without the toolbar
-set guioptions=aAc
-set guifont=Inconsolata:h16
-
-color ir_black
+  set guifont=Inconsolata:h16
+elseif has("unix")
+  set guifont="monospace\ 10"
+end
