@@ -15,7 +15,8 @@ let mapleader = ","
 set history=1000
 
 " Whitespace stuff
-set nowrap
+set wrap
+set scrolloff=3
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
@@ -125,6 +126,16 @@ set directory=~/.vim/backup
 set background=dark
 color desert
 
+command Notes e ~/.notes
+command Todo e ~/.todo
 
-
+" force myself to use hjkl
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
 
