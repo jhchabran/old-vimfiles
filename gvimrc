@@ -1,6 +1,7 @@
 " Start without the toolbar
 set guioptions=aAc
-color ir_black
+"set background=light
+color solarized
 
 if has("gui_macvim")
   " Fullscreen takes up entire screen

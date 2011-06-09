@@ -79,3 +79,6 @@
 [submodule "bundle/colors-pigraph"]
 	path = bundle/colors-pigraph
 	url = https://github.com/jhchabran/vim-pigraph
+[submodule "bundle/mirah"]
+	path = bundle/mirah
+	url = https://github.com/dqminh/mirah-vim.git
