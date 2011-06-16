@@ -127,7 +127,7 @@ set background=dark
 color desert
 
 command Notes e ~/.notes
-command Todo e ~/.todo
+command Todo Ack TODO
 
 " force myself to use hjkl
 map <up> <nop>
