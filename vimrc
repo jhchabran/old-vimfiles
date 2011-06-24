@@ -87,11 +87,11 @@ map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
 
 " Unimpaired configuration
 " Bubble single lines
-nmap <C-Up> [e
-nmap <C-Down> ]e
+nmap <C-K> [e
+nmap <C-J> ]e
 " Bubble multiple lines
-vmap <C-Up> [egv
-vmap <C-Down> ]egv
+vmap <C-K> [egv
+vmap <C-J> ]egv
 
 " ZoomWin 
 map <Leader><Leader> :ZoomWin<CR>
