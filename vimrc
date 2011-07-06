@@ -13,6 +13,8 @@ let mapleader = ","
 
 " Store lots of :cmdline history
 set history=1000
+" Store marks on up to 100 files
+set viminfo='100,f1
 
 " Whitespace stuff
 set wrap
