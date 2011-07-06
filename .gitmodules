@@ -82,6 +82,6 @@
 [submodule "bundle/mirah"]
 	path = bundle/mirah
 	url = https://github.com/dqminh/mirah-vim.git
-[submodule "bundle/colors-github"]
-	path = bundle/colors-github
-	url = https://github.com/xonecas/github-vim-colorscheme.git
+[submodule "bundle/gitv"]
+	path = bundle/gitv
+	url = https://github.com/gregsexton/gitv
