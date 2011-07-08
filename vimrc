@@ -24,6 +24,8 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set list listchars=tab:\ \ ,trail:·
+autocmd BufWritePre *.rb :%s/\s\+$//e
+autocmd BufWritePre *.py :%s/\s\+$//e
 
 " Searching
 set hlsearch
