@@ -9,6 +9,7 @@ syntax on
 set encoding=utf-8
 set hidden
 let mapleader = "," 
+set cursorline
 " Manage all my plugins through pathogen
 
 " Store lots of :cmdline history
