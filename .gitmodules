@@ -73,9 +73,6 @@
 [submodule "bundle/vim-color-pyte"]
 	path = bundle/vim-color-pyte
 	url = https://github.com/therubymug/vim-pyte.git
-[submodule "bundle/markdown-preview"]
-	path = bundle/markdown-preview
-	url = https://github.com/mkitt/markdown-preview.vim.git
 [submodule "bundle/colors-pigraph"]
 	path = bundle/colors-pigraph
 	url = https://github.com/jhchabran/vim-pigraph
@@ -88,3 +85,6 @@
 [submodule "bundle/bufkill"]
 	path = bundle/bufkill
 	url = https://github.com/vim-scripts/bufkill.vim
+[submodule "bundle/jellybeans"]
+	path = bundle/jellybeans
+	url = https://github.com/nanotech/jellybeans.vim.git
