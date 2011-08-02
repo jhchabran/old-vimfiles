@@ -25,6 +25,9 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set list listchars=tab:\ \ ,trail:·
+
+" These two will leave the cursor to where it cleaned spaces which isn't very
+" comfortable
 autocmd BufWritePre *.rb :%s/\s\+$//e
 autocmd BufWritePre *.py :%s/\s\+$//e
 
