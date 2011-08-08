@@ -123,8 +123,10 @@ let macvim_hig_shift_movement = 1
 "spell check when writing commit logs
 autocmd filetype svn,*commit* set spell
 
-" Command-T configuration
-let g:CommandTMaxHeight=5
+" LustyExplorer bindings
+map <leader>t :LustyFilesystemExplorer<cr>
+map <leader>b :LustyBufferExplorer<cr>
+map <leader>g :LustyBufferGrep<cr>
 
 " Directories for swp files
 set backupdir=~/.vim/backup
