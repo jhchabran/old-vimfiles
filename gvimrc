@@ -10,7 +10,7 @@ if has("gui_macvim")
   " Command-Return for fullscreen
   macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
 
-  set guifont=Menlo:h12
+  set guifont=Inconsolata:h14
 elseif has("unix")
   set guifont="monospace\ 10"
 end
