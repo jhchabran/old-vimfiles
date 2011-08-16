@@ -133,8 +133,21 @@ set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
 " Default color scheme
+
 set background=dark
-color desert
+
+" Detect if we're running a 256 colors terminals
+  " PuTTY - putty-256color
+  " rxvt - rxvt-256color
+  " Eterm - Eterm-256color
+  " Konsole - konsole-256color
+  " XFCE's Terminal - gnome-256color
+  " more details here : http://vim.wikia.com/wiki/256_colors_in_vim
+if matchstr(&t_Co, '256')
+  color jellybeans
+else
+  color desert
+endif
 
 command Notes e ~/.notes
 command Todo Ack TODO
