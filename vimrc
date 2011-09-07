@@ -128,6 +128,9 @@ map <leader>t :LustyFilesystemExplorer<cr>
 map <leader>b :LustyBufferExplorer<cr>
 map <leader>g :LustyBufferGrep<cr>
 
+" Presing jj get back to normal mode
+inoremap jj <esc>
+
 " Directories for swp files
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
