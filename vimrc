@@ -152,6 +152,11 @@ else
   color desert
 endif
 
+" If we're under Ubuntu, adjust ack's command
+if !filereadable("/usr/bin/ack")
+   let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+ endif
+
 command Notes e ~/.notes
 command Todo Ack TODO
 
