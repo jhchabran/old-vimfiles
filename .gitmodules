@@ -73,9 +73,6 @@
 [submodule "bundle/gitv"]
 	path = bundle/gitv
 	url = https://github.com/gregsexton/gitv
-[submodule "bundle/bufkill"]
-	path = bundle/bufkill
-	url = https://github.com/vim-scripts/bufkill.vim
 [submodule "bundle/jellybeans"]
 	path = bundle/jellybeans
 	url = https://github.com/nanotech/jellybeans.vim.git
@@ -97,3 +94,6 @@
 [submodule "bundle/guicolorscheme"]
 	path = bundle/guicolorscheme
 	url = https://github.com/thinca/vim-guicolorscheme.git
+[submodule "bundle/bufkill"]
+	path = bundle/bufkill
+	url = https://github.com/vim-scripts/bufkill.vim.git
