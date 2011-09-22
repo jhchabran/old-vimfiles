@@ -136,6 +136,9 @@ inoremap jj <esc>
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
+" Directories for snippets
+let g:UltiSnipsSnippetDirectories = ["snippets"]
+
 " Default color scheme
 
 set background=dark
