@@ -91,9 +91,6 @@
 [submodule "bundle/showmarks"]
 	path = bundle/showmarks
 	url = https://github.com/garbas/vim-showmarks.git
-[submodule "bundle/guicolorscheme"]
-	path = bundle/guicolorscheme
-	url = https://github.com/thinca/vim-guicolorscheme.git
 [submodule "bundle/bufkill"]
 	path = bundle/bufkill
 	url = https://github.com/vim-scripts/bufkill.vim.git
