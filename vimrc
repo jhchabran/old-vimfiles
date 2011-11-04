@@ -4,35 +4,7 @@ filetype off " required by Vundle plumbing
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
-
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-rake'
-Bundle 'mileszs/ack.vim' 
-Bundle 'pangloss/vim-javascript'
-Bundle 'mattn/gist-vim'
-Bundle 'brentmc79/vim-rspec'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'ZoomWin' 
-Bundle 'dqminh/mirah-vim'
-Bundle 'gregsexton/gitv'
-Bundle 'tpope/vim-markdown'
-Bundle 'godlygeek/tabular'
-Bundle 'tpope/vim-fugitive'
-Bundle 'UltiSnips'
-Bundle 'kien/ctrlp.vim'
-Bundle 'vim-scripts/ZoomWin'
-
-
-" Colorschemes
-Bundle 'moria'
-Bundle 'wgibbs/vim-irblack'
-Bundle 'jellybeans.vim'
-Bundle 'xoria256.vim'
-Bundle 'desert256.vim' 
+so bundle.vim
 
 filetype plugin indent on   
 syntax on
@@ -157,10 +129,16 @@ let macvim_hig_shift_movement = 1
 "spell check when writing commit logs
 autocmd filetype svn,*commit* set spell
 
-" LustyExplorer bindings
-map <leader>t :LustyFilesystemExplorer<cr>
-map <leader>b :LustyBufferExplorer<cr>
-map <leader>g :LustyBufferGrep<cr>
+let g:ctrlp_working_path_mode = 2
+" refresh current directory when switching buffers
+au BufEnter * cal ctrlp#SetWorkingPath(2) 
+let g:ctrlp_mru_files = 1 
+let g:ctrlp_jump_to_buffer = 1
+
+map <Leader>f :CtrlPRoot<CR>
+map <Leader>c :CtrlPCurFile<CR>
+map <Leader>b :CtrlPBuffer<CR>
+map <Leader>m :CtrlPMRUFiles<CR>
 
 " Presing jj get back to normal mode
 inoremap jj <esc>
@@ -207,3 +185,6 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
+" Rails / Ruby related
+map <leader>rl :.Rake<cr>
+map <leader>r :Rake<cr>
