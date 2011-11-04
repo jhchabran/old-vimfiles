@@ -4,7 +4,7 @@ filetype off " required by Vundle plumbing
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-so bundle.vim
+so ~/.vim/bundle.vim
 
 filetype plugin indent on   
 syntax on
