@@ -187,4 +187,17 @@ imap <right> <nop>
 
 " Rails / Ruby related
 map <leader>rl :.Rake<cr>
-map <leader>r :Rake<cr>
+map <leader>rr :Rake<cr>
+
+" MRU shortcuts
+" nnoremap <silent> ,1 :CtrlPMRUFiles<cr><cr>
+map <leader>1 :CtrlPMRUFiles<cr><cr>
+map <leader>2 :CtrlPMRUFiles<cr><C-k><cr>
+map <leader>3 :CtrlPMRUFiles<cr><C-k><C-k><cr>
+map <leader>4 :CtrlPMRUFiles<cr><C-k><C-k><C-k><cr>
+map <leader>5 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><cr>
+map <leader>6 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><cr>
+map <leader>7 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><C-k><cr>
+map <leader>8 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><C-k><C-k><cr>
+map <leader>9 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><C-k><C-k><C-k><cr>
+
