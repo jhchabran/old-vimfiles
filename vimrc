@@ -131,7 +131,7 @@ autocmd filetype svn,*commit* set spell
 
 let g:ctrlp_working_path_mode = 2
 " refresh current directory when switching buffers
-au BufEnter * cal ctrlp#SetWorkingPath(2) 
+" au BufEnter * cal ctrlp#SetWorkingPath(2) 
 let g:ctrlp_mru_files = 1 
 let g:ctrlp_jump_to_buffer = 1
 
@@ -139,9 +139,6 @@ map <Leader>f :CtrlPRoot<CR>
 map <Leader>c :CtrlPCurFile<CR>
 map <Leader>b :CtrlPBuffer<CR>
 map <Leader>m :CtrlPMRUFiles<CR>
-
-" Presing jj get back to normal mode
-inoremap jj <esc>
 
 " Directories for swp files
 set backupdir=~/.vim/backup
@@ -184,6 +181,7 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
 
 " Rails / Ruby related
 map <leader>rl :.Rake<cr>
