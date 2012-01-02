@@ -14,7 +14,7 @@ set ruler
 syntax on
 set encoding=utf-8
 set hidden
-let mapleader = "," 
+let mapleader = " " 
 set cursorline
 " Manage all my plugins through pathogen
 
@@ -202,3 +202,12 @@ map <leader>9 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><C-k><C-k><C-k><cr>
 " Insert CRs with ease
 nmap <S-Return> i<Return><Esc>
 nmap <Return> o<Esc>
+
+" Shell out 
+nmap <space><space> :!
+
+" Autocomplete with comfort
+nmap <C-Space> <C-X><C-O>
+
+" Clean search
+map //  :nohlsearch<CR>; echo 'Search highlight cleared' <CR>
