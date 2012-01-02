@@ -22,6 +22,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/ZoomWin'
 Bundle 'tpope/vim-commentary'
 Bundle 'vim-scripts/bufkill.vim'
+Bundle 'Lokaltog/vim-powerline'
 
 " Colorschemes
 Bundle 'guicolorscheme.vim'
@@ -33,3 +34,5 @@ Bundle 'desert256.vim'
 Bundle 'ciaranm/inkpot'
 Bundle 'jgdavey/vim-railscasts'
 Bundle 'tpope/vim-vividchalk'
+Bundle 'mayansmoke'
+Bundle 'molokai'
