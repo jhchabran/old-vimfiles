@@ -199,3 +199,6 @@ map <leader>7 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><C-k><cr>
 map <leader>8 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><C-k><C-k><cr>
 map <leader>9 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><C-k><C-k><C-k><cr>
 
+" Insert CRs with ease
+nmap <S-Return> i<Return><Esc>
+nmap <Return> o<Esc>
