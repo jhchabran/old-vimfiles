@@ -47,7 +47,7 @@ set smartcase
 
 " Tab completion
 set wildmode=list:longest,list:full
-set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,test/fixtures/*,vendor/gems/*
+set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,test/fixtures/*,vendor/gems/*,vendor/bundle/*
 
 " make uses real tabs
 au FileType make 	set noexpandtab
