@@ -16,8 +16,9 @@ set encoding=utf-8
 set hidden
 
 nnoremap <SPACE> <Nop>
-let mapleader = " " 
+let mapleader = "  " 
 set cursorline
+
 " Manage all my plugins through pathogen
 
 " Store lots of :cmdline history
@@ -205,11 +206,8 @@ map <leader>9 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><C-k><C-k><C-k><cr>
 nmap <S-Return> i<Return><Esc>
 nmap <Return> o<Esc>
 
-" Shell out 
-nmap <space><space> :!
-
-" Autocomplete with comfort
-imap <C-Space> <C-n>
+" COLON
+nmap <space> :
 
 " Clean search
 map //  :nohlsearch<CR>; echo 'Search highlight cleared' <CR>
