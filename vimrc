@@ -209,7 +209,7 @@ nmap <Return> o<Esc>
 nmap <space><space> :!
 
 " Autocomplete with comfort
-nmap <C-Space> <C-X><C-O>
+imap <C-Space> <C-n>
 
 " Clean search
 map //  :nohlsearch<CR>; echo 'Search highlight cleared' <CR>
