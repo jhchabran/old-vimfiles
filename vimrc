@@ -15,8 +15,7 @@ syntax on
 set encoding=utf-8
 set hidden
 
-nnoremap <SPACE> <Nop>
-let mapleader = "  " 
+let mapleader = "," 
 set cursorline
 
 " Manage all my plugins through pathogen
@@ -205,9 +204,6 @@ map <leader>9 :CtrlPMRUFiles<cr><C-k><C-k><C-k><C-k><C-k><C-k><C-k><C-k><cr>
 " Insert CRs with ease
 nmap <S-Return> i<Return><Esc>
 nmap <Return> o<Esc>
-
-" COLON
-nmap <space> :
 
 " Clean search
 map //  :nohlsearch<CR>; echo 'Search highlight cleared' <CR>
