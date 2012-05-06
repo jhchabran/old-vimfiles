@@ -23,6 +23,7 @@ Bundle 'vim-scripts/ZoomWin'
 Bundle 'tpope/vim-commentary'
 Bundle 'vim-scripts/bufkill.vim'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'git://gitorious.org/vim-gnupg/vim-gnupg.git'
 
 " Colorschemes
 Bundle 'guicolorscheme.vim'
@@ -37,4 +38,4 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'mayansmoke'
 Bundle 'molokai'
 Bundle 'flazz/vim-colorschemes'
-Bundle 'git://gitorious.org/vim-gnupg/vim-gnupg.git'
+Bundle 'hukl/Smyck-Color-Scheme' 
