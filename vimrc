@@ -160,11 +160,15 @@ set background=dark
 " Konsole - konsole-256color
 " XFCE's Terminal - gnome-256color
 " more details here : http://vim.wikia.com/wiki/256_colors_in_vim
-if matchstr(&t_Co, '256')
-  color xoria256
-else
-  color desert
-endif
+" if matchstr(&t_Co, '256')
+"  color desert
+" else
+"  color desert
+"endif
+
+set t_Co=16
+let g:solarized_termcolors=16
+colorscheme solarized
 
 " If we're under Ubuntu, adjust ack's command
 if !filereadable("/usr/bin/ack")
