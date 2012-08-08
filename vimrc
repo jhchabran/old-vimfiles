@@ -137,6 +137,8 @@ let g:ctrlp_working_path_mode = 2
 let g:ctrlp_mru_files = 1 
 let g:ctrlp_jump_to_buffer = 1
 
+let g:ctrlp_custom_ignore = 'vendor/bundle$'
+
 map <Leader>f :CtrlPRoot<CR>
 map <Leader>c :CtrlPCurFile<CR>
 map <Leader>b :CtrlPBuffer<CR>
@@ -166,9 +168,9 @@ set background=dark
 "  color desert
 "endif
 
-set t_Co=16
-let g:solarized_termcolors=16
-colorscheme solarized
+set t_Co=256
+" let g:solarized_termcolors=256
+colorscheme xoria256
 
 " If we're under Ubuntu, adjust ack's command
 if !filereadable("/usr/bin/ack")
