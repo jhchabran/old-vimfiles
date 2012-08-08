@@ -110,7 +110,9 @@ vmap <C-K> [egv
 vmap <C-J> ]egv
 
 " ZoomWin 
-map <Leader><Leader> :ZoomWin<CR>
+map <Leader>z :ZoomWin<CR>
+
+map <Leader><Leader> <c-^>
 
 " Enable syntastic syntax checking
 let g:syntastic_enable_signs=1
