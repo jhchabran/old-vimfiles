@@ -183,7 +183,7 @@ set background=dark
 "endif
 
 set t_Co=256
-" let g:solarized_termcolors=256
+"let g:solarized_termcolors=16
 colorscheme xoria256
 
 " If we're under Ubuntu, adjust ack's command
