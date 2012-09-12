@@ -167,8 +167,6 @@ let g:UltiSnipsSnippetDirectories = ["snippets"]
 
 " Default color scheme
 
-set background=dark
-
 " Detect if we're running a 256 colors terminals
 " PuTTY - putty-256color
 " rxvt - rxvt-256color
@@ -182,9 +180,10 @@ set background=dark
 "  color desert
 "endif
 
-set t_Co=256
-"let g:solarized_termcolors=16
-colorscheme xoria256
+"set t_Co=256
+set background=light
+let g:solarized_termcolors=16
+let g:solarized_termtrans=1
 
 " If we're under Ubuntu, adjust ack's command
 if !filereadable("/usr/bin/ack")
