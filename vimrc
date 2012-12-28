@@ -162,28 +162,6 @@ map <Leader>m :CtrlPMRUFiles<CR>
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
-" Directories for snippets
-let g:UltiSnipsSnippetDirectories = ["snippets"]
-
-" Default color scheme
-
-" Detect if we're running a 256 colors terminals
-" PuTTY - putty-256color
-" rxvt - rxvt-256color
-" Eterm - Eterm-256color
-" Konsole - konsole-256color
-" XFCE's Terminal - gnome-256color
-" more details here : http://vim.wikia.com/wiki/256_colors_in_vim
-" if matchstr(&t_Co, '256')
-"  color desert
-" else
-"  color desert
-"endif
-
-"set t_Co=256
-set background=light
-let g:solarized_termcolors=16
-let g:solarized_termtrans=1
 
 " If we're under Ubuntu, adjust ack's command
 if !filereadable("/usr/bin/ack")
@@ -192,6 +170,7 @@ endif
 
 command Notes e ~/.notes
 command Todo Ack TODO
+command ShowUtf8 /[^[:print:]]
 
 " force myself to use hjkl
 map <up> <nop>
@@ -226,3 +205,7 @@ nmap <Return> o<Esc>
 
 " Clean search
 map //  :nohlsearch<CR>; echo 'Search highlight cleared' <CR>
+
+let g:ruby_path = system('echo $HOME/.rbenv/shims')
+
+source ~/.vimrc.local
