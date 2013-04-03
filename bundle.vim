@@ -12,7 +12,8 @@ Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-ragtag'
 Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-foreplay'
+Bundle 'tpope/vim-fireplace'
+Bundle 'tpope/vim-dispatch'
 " automatic insertion is driving me nuts :D
 "Bundle 'tpope/vim-endwise'
 
