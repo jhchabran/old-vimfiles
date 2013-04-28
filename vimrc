@@ -187,6 +187,13 @@ imap <right> <nop>
 map <leader>rl :.Rake<cr>
 map <leader>rr :Rake<cr>
 
+" Clojure stuff
+let tlist_clojure_settings = 'clojure;f:function'
+
+" Show me some files so I don't get confused by the same filenames
+map <leader>n :NERDTreeToggle<cr>
+map <leader>t :TlistToggle<cr>
+
 " MRU shortcuts
 " nnoremap <silent> ,1 :CtrlPMRUFiles<cr><cr>
 map <leader>1 :CtrlPMRUFiles<cr><cr>
@@ -207,5 +214,12 @@ nmap <Return> o<Esc>
 map //  :nohlsearch<CR>; echo 'Search highlight cleared' <CR>
 
 let g:ruby_path = system('echo $HOME/.rbenv/shims')
+
+"if &term =~ '256color'
+  " Disable Background Color Erase (BCE) so that color schemes
+  " work properly when Vim is used inside tmux and GNU screen.
+  " See also http://snk.tuxfamily.org/log/vim-256color-bce.html
+"  set t_ut=
+"endif
 
 source ~/.vimrc.local
