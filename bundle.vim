@@ -12,13 +12,19 @@ Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-ragtag'
 Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-foreplay'
+Bundle 'tpope/vim-classpath'
+Bundle 'tpope/vim-fireplace'
+Bundle 'tpope/vim-dispatch'
+Bundle 'guns/vim-clojure-static'
 " automatic insertion is driving me nuts :D
-"Bundle 'tpope/vim-endwise'
+" Bundle 'tpope/vim-endwise'
+
+Bundle 'taglist.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
 
 Bundle 'mikewest/vimroom'
 
-Bundle 'vim-scripts/VimClojure'
 Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
 
