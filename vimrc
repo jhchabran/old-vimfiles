@@ -187,6 +187,13 @@ imap <right> <nop>
 map <leader>rl :.Rake<cr>
 map <leader>rr :Rake<cr>
 
+" Clojure stuff
+let tlist_clojure_settings = 'clojure;f:function'
+
+" Show me some files so I don't get confused by the same filenames
+map <leader>n :NERDTreeToggle<cr>
+map <leader>t :TlistToggle<cr>
+
 " MRU shortcuts
 " nnoremap <silent> ,1 :CtrlPMRUFiles<cr><cr>
 map <leader>1 :CtrlPMRUFiles<cr><cr>
