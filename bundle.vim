@@ -43,3 +43,4 @@ Bundle 'groenewege/vim-less'
 " Colorschemes
 Bundle 'noah/vim256-color'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'zeis/vim-kolor'
