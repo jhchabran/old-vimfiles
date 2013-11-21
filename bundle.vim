@@ -21,7 +21,7 @@ Bundle 'guns/vim-clojure-static'
 
 Bundle 'taglist.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
+" Bundle 'scrooloose/syntastic'
 
 Bundle 'mikewest/vimroom'
 
