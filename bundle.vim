@@ -23,8 +23,6 @@ Bundle 'taglist.vim'
 Bundle 'scrooloose/nerdtree'
 " Bundle 'scrooloose/syntastic'
 
-Bundle 'mikewest/vimroom'
-
 Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
 
@@ -36,11 +34,11 @@ Bundle 'godlygeek/tabular'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/ZoomWin'
 Bundle 'vim-scripts/bufkill.vim'
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
 Bundle 'git://gitorious.org/vim-gnupg/vim-gnupg.git'
-Bundle 'groenewege/vim-less'
 
 " Colorschemes
 Bundle 'noah/vim256-color'
+Bundle 'junegunn/seoul256.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'zeis/vim-kolor'
